@@ -1,0 +1,51 @@
+# ✅ Casos de Teste - Amazon Brasil
+
+Documentação dos testes realizados durante a navegação pública na Amazon Brasil.
+
+---
+
+## 🧪 CT001 - Pesquisa por produto
+- **Título:** Buscar por "notebook dell"
+- **Pré-condição:** Acessar o site [amazon.com.br](https://www.amazon.com.br)
+- **Passos:**
+  1. Digitar "notebook dell" na barra de pesquisa
+  2. Clicar no ícone de busca
+- **Resultado Esperado:** Lista de produtos relacionados ao termo "notebook dell"
+- **Resultado Obtido:** Conforme esperado
+- **Status:** ✅ Aprovado
+
+---
+
+## 🧪 CT002 - Aplicação de filtro "Entrega Prime"
+- **Título:** Filtrar resultados por entrega Prime
+- **Pré-condição:** Realizar uma busca por "livros"
+- **Passos:**
+  1. Selecionar o filtro "Prime"
+  2. Verificar os selos nos produtos listados
+- **Resultado Esperado:** Todos os produtos devem exibir o selo Prime
+- **Resultado Obtido:** Alguns itens sem selo aparecem
+- **Status:** ⚠️ Falha parcial
+
+---
+
+## 🧪 CT003 - Adicionar item ao carrinho
+- **Título:** Adicionar um produto ao carrinho sem login
+- **Pré-condição:** Acesso ao site
+- **Passos:**
+  1. Buscar por "fone bluetooth"
+  2. Selecionar um produto da lista
+  3. Clicar em "Adicionar ao carrinho"
+- **Resultado Esperado:** Mensagem de confirmação de adição ao carrinho
+- **Resultado Obtido:** Ocorreu conforme esperado
+- **Status:** ✅ Aprovado
+
+---
+
+## 🧪 CT004 - Teste de link de banner
+- **Título:** Verificar redirecionamento de banner principal
+- **Pré-condição:** Página inicial da Amazon
+- **Passos:**
+  1. Clicar em um banner promocional na home
+- **Resultado Esperado:** Redirecionar para uma página relacionada à promoção
+- **Resultado Obtido:** Página de destino incorreta (erro 404)
+- **Status:** ❌ Falha
