@@ -17,7 +17,7 @@ O projeto contém os seguintes testes documentados:
 | CT005  | Responsividade e experiência mobile              | ⚠️ Observação crítica |
 | CT006  | Tempo de carregamento da página                  | ✅ Aprovado |
 
-> Detalhes completos em [`casos-de-teste/casos_de_teste_amazon.md`](casos-de-teste/casos_de_teste_amazon.md)
+> Detalhes completos em [`casos-de-teste/casos_de_teste_amazon.md`](casos_de_teste.md)
 
 ---
 
@@ -27,7 +27,7 @@ Erros observados durante os testes:
 
 - Falha visual em mobile (fonte pequena)
 
-Mais detalhes em [`relatorio-de-erros/bugs_encontrados.md`](relatorio-de-erros/bugs_encontrados.md)
+Mais detalhes em [`relatorio-de-erros/bugs_encontrados.md`](descrição_bugs.md)
 
 ---
 
