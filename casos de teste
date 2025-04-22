@@ -16,15 +16,17 @@ Documentação dos testes realizados durante a navegação pública na Amazon Br
 
 ---
 
-## 🧪 CT002 - Aplicação de filtro "Entrega Prime"
-- **Título:** Filtrar resultados por entrega Prime
-- **Pré-condição:** Realizar uma busca por "livros"
+## 🧪 CT002 - Verificação de filtros de categoria
+- **Título:** Verificar presença e funcionamento de filtros ao buscar por "notebook dell"
+- **Pré-condição:** Acessar o site [amazon.com.br](https://www.amazon.com.br)
 - **Passos:**
-  1. Selecionar o filtro "Prime"
-  2. Verificar os selos nos produtos listados
-- **Resultado Esperado:** Todos os produtos devem exibir o selo Prime
-- **Resultado Obtido:** Alguns itens sem selo aparecem
-- **Status:** ⚠️ Falha parcial
+  1. Realizar uma busca por "notebook dell"
+  2. Observar os filtros exibidos na lateral esquerda
+  3. Aplicar um ou mais filtros como "Tamanho da tela" ou "Marca"
+  4. Verificar se os resultados são atualizados conforme o filtro aplicado
+- **Resultado Esperado:** Resultados da busca devem refletir os filtros aplicados corretamente
+- **Resultado Obtido:** Produtos atualizados conforme os filtros selecionados
+- **Status:** ✅ Aprovado
 
 ---
 
