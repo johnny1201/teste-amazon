@@ -1,53 +1,135 @@
-# ✅ Casos de Teste - Amazon Brasil
+✅ Casos de Teste - Amazon Brasil
 
 Documentação dos testes realizados durante a navegação pública na Amazon Brasil.
-
----
-
-## 🧪 CT001 - Pesquisa por produto
-- **Título:** Buscar por "notebook dell"
 - **Pré-condição:** Acessar o site [amazon.com.br](https://www.amazon.com.br)
-- **Passos:**
-  1. Digitar "notebook dell" na barra de pesquisa
-  2. Clicar no ícone de busca
-- **Resultado Esperado:** Lista de produtos relacionados ao termo "notebook dell"
-- **Resultado Obtido:** Conforme esperado
-- **Status:** ✅ Aprovado
 
 ---
 
-## 🧪 CT002 - Verificação de filtros de categoria
-- **Título:** Verificar presença e funcionamento de filtros ao buscar por "notebook dell"
-- **Pré-condição:** Acessar o site [amazon.com.br](https://www.amazon.com.br)
-- **Passos:**
-  1. Realizar uma busca por "notebook dell"
-  2. Observar os filtros exibidos na lateral esquerda
-  3. Aplicar um ou mais filtros como "Tamanho da tela" ou "Marca"
-  4. Verificar se os resultados são atualizados conforme o filtro aplicado
-- **Resultado Esperado:** Resultados da busca devem refletir os filtros aplicados corretamente
-- **Resultado Obtido:** Produtos atualizados conforme os filtros selecionados
-- **Status:** ✅ Aprovado
+🧪 CT001 - Pesquisa por produto
+
+Título: Buscar por "notebook dell"
+
+Pré-condição: Acessar o site amazon.com.br
+
+Passos:
+
+  Digitar "notebook dell" na barra de pesquisa
+  
+  Clicar no ícone de busca
+
+Resultado Esperado: Lista de produtos relacionados ao termo "notebook dell"
+
+Resultado Obtido: Conforme esperado
+
+Status: ✅ Aprovado
 
 ---
 
-## 🧪 CT003 - Adicionar item ao carrinho
-- **Título:** Adicionar um produto ao carrinho sem login
-- **Pré-condição:** Acesso ao site
-- **Passos:**
-  1. Buscar por "fone bluetooth"
-  2. Selecionar um produto da lista
-  3. Clicar em "Adicionar ao carrinho"
-- **Resultado Esperado:** Mensagem de confirmação de adição ao carrinho
-- **Resultado Obtido:** Ocorreu conforme esperado
-- **Status:** ✅ Aprovado
+🧪 CT002 - Verificação de filtros de categoria
+
+Título: Verificar presença e funcionamento de filtros ao buscar por "notebook dell"
+
+Pré-condição: Acessar o site amazon.com.br
+
+Passos:
+
+  Realizar uma busca por "notebook dell"
+  
+  Observar os filtros exibidos na lateral esquerda
+  
+  Aplicar um ou mais filtros como "Tamanho da tela" ou "Marca"
+  
+  Verificar se os resultados são atualizados conforme o filtro aplicado
+
+Resultado Esperado: Resultados da busca devem refletir os filtros aplicados corretamente
+
+Resultado Obtido: Produtos atualizados conforme os filtros selecionados
+
+Status: ✅ Aprovado
 
 ---
 
-## 🧪 CT004 - Teste de link de banner
-- **Título:** Verificar redirecionamento de banner principal
-- **Pré-condição:** Página inicial da Amazon
-- **Passos:**
-  1. Clicar em um banner promocional na home
-- **Resultado Esperado:** Redirecionar para uma página relacionada à promoção
-- **Resultado Obtido:** Página de destino incorreta (erro 404)
-- **Status:** ❌ Falha
+🧪 CT003 - Adicionar item ao carrinho
+
+Título: Adicionar um produto ao carrinho sem login
+
+Pré-condição: Acesso ao site
+
+Passos:
+
+  Buscar por "fone bluetooth"
+  
+  Selecionar um produto da lista
+  
+  Clicar em "Adicionar ao carrinho"
+
+Resultado Esperado: Mensagem de confirmação de adição ao carrinho
+
+Resultado Obtido: Ocorreu conforme esperado
+
+Status: ✅ Aprovado
+
+---
+
+🧪 CT004 - Teste de link de banner
+
+Título: Verificar redirecionamento de banner principal
+
+Pré-condição: Página inicial da Amazon
+
+Passos:
+
+  Clicar em um banner promocional na home
+
+Resultado Esperado: Redirecionar para uma página relacionada à promoção
+
+Resultado Obtido: Página de destino correta
+
+Status: ✅ Aprovado
+
+---
+
+🧪 CT005 - Verificação de login de usuário
+
+Título: Tentar login com dados inválidos
+
+Pré-condição: Acessar o site amazon.com.br
+
+Passos:
+
+  Clicar em "Entrar"
+  
+  Inserir e-mail e senha inválidos
+  
+  Clicar em "Entrar"
+
+Resultado Esperado: Exibir mensagem de erro indicando que as credenciais estão incorretas
+
+Resultado Obtido: Mensagem de erro conforme esperado
+
+Status: ✅ Aprovado
+
+---
+
+🧪 CT006 - Teste de navegação entre páginas
+
+Título: Navegar entre as páginas do site
+
+Pré-condição: Acessar o site amazon.com.br
+
+Passos:
+
+  Acessar a página inicial
+  
+  Clicar em qualquer categoria ou subcategoria
+  
+  Voltar para a página inicial
+
+Resultado Esperado: A navegação entre as páginas deve ser rápida e sem erros
+
+Resultado Obtido: Navegação ocorreu conforme esperado
+
+Status: ✅ Aprovado
+
+---
+
