@@ -63,7 +63,7 @@ Documentação dos testes realizados durante a navegação pública na Amazon Br
 - **Resultado Esperado:** Elementos bem posicionados e funcionais em tela pequena
 - **Resultado Obtido:** Elementos funcionam, mas a fonte apresentada é muito pequena, prejudicando a leitura
 - **Status:** ⚠️ Observação crítica de usabilidade
-- **Evidência:** ![CT005 - Fonte Mobile](../evidencias-visuais/CT005-amazon.png)
+- **Evidência:** ![CT005 - Fonte Mobile](../evidencias-visuais/CT005_amazon.png)
 
 ---
 
