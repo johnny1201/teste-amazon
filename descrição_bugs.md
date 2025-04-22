@@ -17,6 +17,6 @@ Este documento contém a descrição detalhada dos bugs encontrados durante os t
 - **Resultado Esperado:** A fonte deve ser de tamanho adequado para leitura confortável em dispositivos móveis.
 - **Resultado Obtido:** A fonte é muito pequena, prejudicando a leitura e a navegação.
 - **Status:** Aberto
-- **Screenshots/Evidências:** ![Fonte pequena no mobile](../evidencias-visuais/CT005-amazon.png)
+- **Screenshots/Evidências:** ![Fonte pequena no mobile](../evidencias-visuais/CT005_amazon.png)
 
 ---
